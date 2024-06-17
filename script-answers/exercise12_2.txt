@@ -1,0 +1,25 @@
+Script started on Sun Jun 16 20:45:21 2024
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Sungs-Air-2.lan/Users/sungpark/repos/part12[0m[27m[24m[Jsungpark@Sungs-Air-2 part12 % [K[?2004h[7mdocker run -it ubuntu bash[27m[26D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Kaa21f24e1940: Pulling fs layer [1B[1A[2Kaa21f24e1940: Downloading  294.9kB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  4.381MB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  8.772MB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  13.46MB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  17.84MB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  22.53MB/28.02MB[1B[1A[2Kaa21f24e1940: Downloading  27.19MB/28.02MB[1B[1A[2Kaa21f24e1940: Verifying Checksum [1B[1A[2Kaa21f24e1940: Download complete [1B[1A[2Kaa21f24e1940: Extracting  294.9kB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  3.539MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  7.078MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  8.552MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  10.32MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  16.81MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  21.82MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting   23.3MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  24.18MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  26.25MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  27.72MB/28.02MB[1B[1A[2Kaa21f24e1940: Extracting  28.02MB/28.02MB[1B[1A[2Kaa21f24e1940: Pull complete [1BDigest: sha256:e3f92abc0967a6c19d0dfa2d55838833e947b9d74edbcb0113e48535ad4be12a
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@8d4c811150ec: /root@8d4c811150ec:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@8d4c811150ec: /root@8d4c811150ec:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mmedia[0m  [01;34mopt[0m   [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmnt[0m    [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+[?2004h]0;root@8d4c811150ec: /root@8d4c811150ec:/# echo > /usr/src/app/index.js
+[?2004l[?2004h]0;root@8d4c811150ec: /root@8d4c811150ec:/# [Kcd . /usr/src/app
+[?2004l[?2004h]0;root@8d4c811150ec: /usr/src/approot@8d4c811150ec:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@8d4c811150ec: /usr/src/approot@8d4c811150ec:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Sungs-Air-2.lan/Users/sungpark/repos/part12[0m[27m[24m[Jsungpark@Sungs-Air-2 part12 % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Sun Jun 16 20:51:34 2024
