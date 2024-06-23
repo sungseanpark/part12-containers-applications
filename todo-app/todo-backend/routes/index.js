@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
 
 /* GET usage metadata. */
 router.get('/statistics', async (req, res) => {
-  const added_todos = await redis.getAsync('added_todos') || 0;
+  const added_todos = (Number(await redis.getAsync('added_todos') || 0));
   res.json({ added_todos });
 });
 

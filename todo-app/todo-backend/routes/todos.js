@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
   })
 
   // Increment the counter in Redis
-  await redis.setAsync('added_todos', (await redis.getAsync('added_todos') || 0) + 1);
+  await redis.setAsync('added_todos', (Number(await redis.getAsync('added_todos')) || 0) + 1);
 
   res.send(todo);
 });
