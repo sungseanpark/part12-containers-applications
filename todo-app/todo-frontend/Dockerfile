@@ -10,6 +10,8 @@ RUN npm ci
 
 RUN npm run build
 
+RUN npm run test
+
 # Esta es una nueva etapa, todo lo anterior a esta linea ha desaparecido, excepto por los archivos que queremos COPIAR
 FROM nginx:1.25-alpine
 
